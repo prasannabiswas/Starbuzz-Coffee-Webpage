@@ -1,0 +1,57 @@
+@font-face {
+font-family: "Emblema One";
+src: url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.woff"),
+url("http://wickedlysmart.com/hfhtmlcss/chapter8/journal/EmblemaOne-Regular.ttf");
+}
+body	{
+	background-color: #d2b48c;
+	margin-left: 20%
+	margin-right: 20%;
+	border: 2px dotted black;
+	padding: 10px 10px 10px 10px;
+	font-family: sans-serif;
+	font-size: x-large;
+}
+p {
+	color: maroon;
+}
+
+h1, h2, h3	{
+	font-family: "Emblema One", sans-serif;
+	color: red;
+	font-weight: bolder;
+	font-size: 1.2em;
+	text-decoration: none;
+}
+h1	{
+	border-bottom: 1px solid black;
+	font-weight: bolder;
+	color: black;
+}
+p.houseblend	{
+	color: blue;
+	font-weight: bold;
+}
+.mochaCafeLatte	{
+	color: yellow;
+}
+p.houseblend, a	{
+	text-decoration: none;
+	font-style: italic;
+}
+a.hover	{
+	color: black;
+}
+#starbuzzcoffee	{
+	text-decoration: none;
+}
+#starbuzzcoffe:hover	{
+	color: black;
+}
+#starbuzzcoffe:link	{
+	color: green;
+}
+#starbuzzcoffe:visited	{
+	color: purple;
+}
+
