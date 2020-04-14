@@ -38,7 +38,7 @@ nav ul li a:link,nav ul li a:visited	{
 	font-weight: bold;
 }
 nav ul li a:hover	{
-	background-color: red;
+	background-color: gray;
 }
 nav ul li.selected	{
 	background-color: #c8b99c;
