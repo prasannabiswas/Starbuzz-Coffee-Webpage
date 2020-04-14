@@ -43,7 +43,7 @@ section#drinks	{
 }
 
 }
-section#main	{
+section#main,section#blog	{
 	display: table-cell;
 	background: #efe5d0 url(background.png) top left;
 	font-size: 105%;
