@@ -11,13 +11,20 @@ div#tableContainer	{
 div#tableRow	{
 	display: table-row;
 }
-header	{
+header.top	{
 	background-color: #675c47;
 	margin: 10px 0px 10px 0px;
 	height: 75px;
 	padding: 10px;
 	font-weight: bolder;
 	font-size: x-large;
+}
+header	{
+	color: black; 
+	margin: 10px;
+	height: 50px;
+	padding: 0px;
+	font-size: 125%;
 }
 
 #award	{
