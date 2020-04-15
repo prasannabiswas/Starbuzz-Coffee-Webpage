@@ -53,6 +53,9 @@ header	{
 	padding: 0px;
 	font-size: 125%;
 }
+.video	{
+	margin-left: 40px;
+}
 
 #award	{
 	position: absolute;
