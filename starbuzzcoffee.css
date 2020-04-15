@@ -19,6 +19,9 @@ header.top	{
 	font-weight: bolder;
 	font-size: x-large;
 }
+#slogan	{
+	float: right;
+}
 nav	{
 	background-color: #efe5d0;
 	margin: 10px 0px 10px 0px;
@@ -133,6 +136,7 @@ table 	{
 td, th {
 	border: 1px dotted black;
 	padding: 5px 10px 10px 5px;
+	text-align: center;
 }
 
 caption 	{
@@ -147,4 +151,17 @@ th {
 
 tr:nth-child(odd) {
 	background-color: #fcba7a;
+}
+
+li{
+	list-style-type: none; 
+}
+
+a#links:hover	{
+	color: white;
+}
+
+a#links	{
+	border-bottom: none;
+	line-height: 1.72em;
 }
