@@ -123,18 +123,28 @@ a:visited	{
 a:hover	{ color: red; }
 
 table 	{
-	margin-left: 20px;
-	margin-right: 20px;
+	margin-left: 80px;
 	border: thin solid black;
 	caption-side: bottom;
+	border-spacing: 5px 10px;
+	border-collapse: collapse;
 }
 
 td, th {
-	border: 1px solid black;
-	padding: 5px;
+	border: 1px dotted black;
+	padding: 5px 10px 10px 5px;
 }
 
 caption 	{
 	font-style: italic;
 	padding-top: 10px;
+}
+th {
+	text-align: center;
+	font-weight: bolder;
+	background-color: #cc6600;
+} 
+
+tr:nth-child(odd) {
+	background-color: #fcba7a;
 }
