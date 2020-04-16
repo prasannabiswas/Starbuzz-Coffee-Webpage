@@ -12,7 +12,7 @@
 	<form action="http://starbuzzcoffee.com/processorder.php" method="post">
 <div class="tableRow">
 <p>
-Choose your beans:
+Choose your beans :
 </p>
 <p>
 <select name="beans">
@@ -24,58 +24,67 @@ Choose your beans:
 </p>
 </div>
 <div class="tableRow">
-<p> Type: </p>
+<p> Type : </p>
 <p>
-<input type="radio" name="beantype" value="whole"> Whole bean<br>
-<input type="radio" name="beantype" value="ground" checked> Ground
+<input type="radio" name="beantype" value="whole" id="whole"><label for="whole">Whole</label>
+<input type="radio" name="beantype" value="ground" id="Ground" checked><label for="Ground">Ground</label>
 </p>
 </div>
 <div class="tableRow">
-<p> Number of bags: </p>
-<p> <input type="number" name="bags" min="1" max="10"> </p>
+<p><label for="bags"> Number of bags: </label></p>
+<p> <input type="number" id="bags" name="bags" min="1" max="10"> </p>
 </div>
 <div class="tableRow label">
 <p> Must arrive by date: </p>
 <p> <input type="date" name="date"> </p>
 </div>
+
+<fieldset>
 <div class="tableRow">
-<p> Extras: </p>
-<p>
-<input type="checkbox" name="extras[]" value="giftwrap"> Gift wrap<br>
-<input type="checkbox" name="extras[]" value="catalog" checked>
-Include catalog with order
-</p>
+<legend><P> Extras : </P></legend>
+<p><input type="checkbox" name="extras[]" value="giftwrap"><label for="extras[]_giftwrap">Gift Wrap</label>
+<input type="checkbox" name="extras[]" value="catalog" checked><label for="extras[]_catalog">Catalog</label></p>
 </div>
+</fieldset>
+
 <div class="tableRow">
 <p class="heading"> Ship to </p>
 <p></p>
 </div>
 <div class="tableRow">
-<p> Name: </p>
-<p> <input type="text" name="name" value=""> </p>
+<p> Name : </p>
+<p> <input type="text" name="name" value="" placeholder="John Gameiro" required></p> 
+</div>
+<div class="tableRow">  
+<p>Password :</p>
+<p><input type="password" name="secret" placeholder="For identification"></p>
 </div>
 <div class="tableRow">
-<p> Address: </p>
-<p> <input type="text" name="address" value=""> </p>
+	<p>Email :</p>
+	<p><input type="Email" name="email" value="" placeholder="john123@gmail.com" required></p>
 </div>
 <div class="tableRow">
-<p> City: </p>
-<p> <input type="text" name="city" value=""> </p>
+<p> Address : </p>
+<p> <input type="text" name="address" value="" placeholder="24-B,New York" required> </p>
 </div>
 <div class="tableRow">
-<p> State: </p>
-<p> <input type="text" name="state" value=""> </p>
+<p> City : </p>
+<p> <input type="text" name="city" value="" placeholder="Saltlake City" required=""> </p>
 </div>
 <div class="tableRow">
-<p> Zip: </p>
-<p> <input type="text" name="zip" value=""> </p>
+<p> State : </p>
+<p> <input type="text" name="state" value="" placeholder="State" required=""> </p>
 </div>
 <div class="tableRow">
-<p> Phone: </p>
-<p> <input type="tel" name="phone" value=""> </p>
+<p> Zip : </p>
+<p> <input type="text" name="zip" value="" placeholder="Area Pincode" required=""> </p>
 </div>
 <div class="tableRow">
-<p> Customer Comments: </p>
+<p> Phone : </p>
+<p> <input type="tel" name="phone" value="" placeholder="+91-9853171414" required> </p>
+</div>
+<div class="tableRow">
+<p> Customer Comments : </p>
 <p>
 <textarea name="comments" rows="10" cols="48"></textarea>
 </p>
