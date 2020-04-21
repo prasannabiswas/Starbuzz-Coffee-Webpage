@@ -39,6 +39,16 @@ p.houseblend, a	{
 	text-decoration: none;
 	font-style: italic;
 }
+a {
+    color: lime;
+    -webkit-transition: color 1s;
+    -moz-transition:    color 1s;
+    -ms-transition:     color 1s;
+    -o-transition:      color 1s;
+    transition:         color 1s;
+}
+
+
 a.hover	{
 	color: black;
 }

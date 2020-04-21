@@ -40,8 +40,17 @@ nav ul li a:link,nav ul li a:visited	{
 	border-bottom: none;
 	font-weight: bold;
 }
+nav ul li a 	{
+    color: lime;
+    -webkit-transition: color 1s ease-out;
+    -moz-transition:    color 1s ease-out;
+    -ms-transition:     color 1s ease-out;
+    -o-transition:      color 1s ease-out;
+    transition:         color 1s ease-out;
+
+}
 nav ul li a:hover	{
-	background-color: gray;
+	color: lime;
 }
 nav ul li.selected	{
 	background-color: #c8b99c;
